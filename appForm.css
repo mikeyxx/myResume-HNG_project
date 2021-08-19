@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand-logo {
+    padding: 5px 0 0 10px;
+}
+
+.container {
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+header {
+    background-color: #D0D3D9;
+}
+
+.header-element {
+    text-align: center;
+}
+
+.formwrapper {
+    background-color: #F2F2F2;
+    max-width: 760px;
+    margin: 20px auto 0 auto;
+    padding: 35px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  fieldset {
+      border: none;
+      margin-bottom: 20px;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  .form-prop {
+      padding: 5px;
+  }
+
+  .dull-font {
+      color: #CBCFD1;
+  }
+
+  .comment-box {
+      height: 70px;
+      padding: 3px;
+  }
+
+  .enroll {
+      background-color: #D90B1C;
+      padding: 5px 20px 5px 20px;
+      border: none;
+      border-radius: 3px;
+      color: white;
+  }
+
+  .enroll:hover {
+      background-color: teal;
+      cursor: pointer;
+  }
+
+  
