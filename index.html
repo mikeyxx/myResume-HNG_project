@@ -4,133 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zuri Internship Application Form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <title>My Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav class="brand-logo">
-                <a href="https://internship.zuri.team/"><img src="https://internship.zuri.team/static/media/logo.36d2d48a.svg" alt="brand logo" class="brand-logo"></a>
+    <div class="page-length">
+        <header class="page-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="togglebar">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>             
+                    <div class="navbar-elements" id="myLinks">
+                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#work-experience">Work Experience</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </div>
+                </div>
             </nav>
-            <div class="header-element">
-                <h1>Application Form</h1>
-                <p>Please complete this form to enroll for the software development internship at Zuri</p>
-                <h2>Zuri Internship</h2>
-                <address>8 Jubliee-CMD Road, Magodo,
-                    Lagos State, Nigeria.
-                    </address>
-                <p>Please ensure all details entered in the form are valid. If you have difficulty completing the form, do not hesitate to contact us.</p>
-        </div>
+            <div class="name-title">
+                <h1>Michael Ogbo</h1>
+                <p class="jobTitle">Soon to be a Web Developer</p>
+            </div>
         </header>
-        <section>
-            <form action="" method="Get" class="formwrapper">
-                <div class="form-field">
-                    <label for="full-name">Full Name</label>
-                    <input id="full-name" name="name" type="name" placeholder="Enter your fullname" class="form-prop" required>
+        <div class="container">
+            <section class="section-one background-app">
+                <figure><img src="image/Michael (5).png" alt="Michael" class="fig"></figure>
+                <div class="section-one-content">
+                    <div class="contact-section lines" id="contact">
+                        <h2>Contact</h2>
+                        <div><i class="fas fa-mobile"></i>08065064178</div>
+                        <div class="socials">
+                            <a href="mailto:michaelogboo@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                            <a href="https://github.com/mikeyxx"><i class="fab fa-github"></i></a>
+                            <a href="http://www.linkedin.com/in/michael-27"><i class="fab fa-linkedin"></i></a>
+                            <a href="http://www.twitter.com/whatyahavin"><i class="fab fa-twitter-square"></i></a>
+                            <a href="http://www.instagram.com/mikey__xx_"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="skill-section lines" id="skills">
+                        <h2>Skills</h2>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-hand-point-right"></i>Frontend Development <span class="each">&#40;HTML, CSS & JavaScript&#41;</span></li>
+                            <li><i class="fas fa-hand-point-right"></i><span>Project Management</span></li>
+                            <li><i class="fas fa-hand-point-right"></i>Data Analysis <br><span class="each">&#40;Power BI & Excel&#41;</span></li>
+                            <li><i class="fas fa-hand-point-right"></i>Content Writing</li>
+                            <li><i class="fas fa-hand-point-right"></i>Customer Service <br><span class="each2">Management</span></li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-section lines">
+                        <h2>Hobbies</h2>
+                        <ul>
+                            <li>Travelling</li>
+                            <li>Swimming</li>
+                            <li>Wine Shopping</li>
+                            <li>Reading Book</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" placeholder="Email your email address" class="form-prop" required>
+            </section>
+            <section class="section-two background-app">
+                <div class="section-two-content">
+                        <div class="profile">
+                            <h2>Profile</h2>
+                            <p>Efficient, resourceful and an organized individual with 2+ years of providing Quality assurance in Customer service through the establishment, monitoring, and evaluation of quality standards. A budding Web developer with HTML, CSS & JavaScript profeciencies.</p>
+                        </div>
+                        <div class="roles" id="#work-experience">
+                            <h2>Work Experience</h2>
+                            <ol class="xpr">
+                                <li><span class="list-items">Quality Assurance Specialist</span> <br><em>&#40;Renmoney Microfinance Bank&#41;</em>
+                                    <span><br>August 2020 – Present</span></li>
+                                <li><span class="list-items">People Optimization Officer</span> <br><em>&#40;Renmoney Microfinance Bank&#41;</em>
+                                    <span><br>January 2020 – August 2020</span></li>
+                                <li><span class="list-items"> Optimization Intern &#40;NYSC&#41;</span> <br><em>&#40;Renmoney Microfinance Bank&#41;</em>
+                                    <span><br>July 2019 – January 2020</span></li>
+                                <li><span class="list-items">Content Writer</span> <br><em>&#40;Renmoney Microfinance Bank&#41;</em>
+                                    <br>June 2018 – October 2018</li>
+                            </ol>
+                        </div>
+                        <div class="education">
+                            <h2>Education</h2>
+                            <p class="list-items">Bachelor of Psychology
+                            <br>University of Ibadan &#40;2014 &#8209; 2018&#41;</p>
+                        </div>
                 </div>
-                <div class="form-field">
-                    <label for="phone">Mobile Number</label>
-                    <input id="phone" name="number" type="text" placeholder="Enter your phone number" class="form-prop" required>
-                </div>
-                <div class="form-field">
-                    <label for="age">Age</label>
-                    <input id="age" name="number" type="number" min=10 max=99 class="form-prop" required>
-                </div>
-                <div class="form-field">
-                    <label for="stack">Track</label>
-                    <select id="stack" name="stack" class="form-prop">
-                    <option disabled selected value class="dull-font">Select your track</option>
-                    <option value="front-end">Front-end</option>
-                    <option value="back-end">Back-end</option>
-                    <option value="Mobile">Mobile</option>
-                    </select>
-                </div>
-                <div class="form-field">
-                    <label for="location">Location</label>
-                    <select id="location" name="location" class="form-prop">
-                    <option disabled selected value class="dull-font">Select your location</option>
-                    <option value="lagos">Lagos</option>
-                    <option value="abuja">Abuja</option>
-                    <option value="Ibadan">Ibadan</option>
-                    </select>
-                </div>
-                <div class="form-field">
-                    <label for="level">Experience Level</label>
-                    <select id="level" name="level" class="form-prop">
-                    <option disabled selected value class="dull-font">Select your experience level</option>
-                    <option value="beginner">Beginner</option>
-                    <option value="intermidiate">Intermidiate</option>
-                    <option value="professional">Professional</option>
-                    </select>
-                </div class="form-field">
-                <fieldset>
-                    <legend>Employment Status</legend>
-                    <ul>
-                        <li>
-                            <label for="employment">
-                                <input id="employment" name="status" value="student" type="radio">
-                                Student
-                            </label>
-                        </li>
-                        <li>
-                            <label for="employment">
-                                <input id="employment" name="status" value="unemployed" type="radio">
-                                Unemployed
-                            </label>
-                        </li>
-                        <li>
-                            <label for="employment">
-                                <input id="employment" name="status" value="employed" type="radio">
-                                Employed
-                            </label>
-                        </li>
-                        <li>
-                            <label for="employment">
-                                <input id="employment" name="status" value="self employed" type="radio">
-                                Self Employed
-                            </label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>How did you hear about us?</legend>
-                    <ul>
-                        <li>
-                            <label for="about-us">
-                                <input id="about us" name="contact" value="twitter" type="radio">
-                                Twitter
-                            </label>
-                        </li>
-                        <li>
-                            <label for="about-us">
-                                <input id="about us" name="contact" value="instagram" type="radio">
-                                Instagram
-                            </label>
-                        </li>
-                        <li>
-                            <label for="about-us">
-                                <input id="about us" name="contact" value="linkedin" type="radio">
-                                LinkedIn
-                            </label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <div class="form-field">
-                    <label for="comment">Tell us something about you in one sentence</label>
-                    <textarea id="comment" name="comment" class= "comment-box" placeholder="About you"></textarea>
-                </div>
-                <div class="button">
-                    <button class="enroll">Submit</button>
-                </div>            
-            </form>
-        </section>
+            </section>
+        </div>
+        <footer class="footer-prop">
+            <a href="https://internship.zuri.team/"><img src="https://internship.zuri.team/static/media/logo.36d2d48a.svg" alt="brand logo" class="brand-logo"></a>
+        </footer>
     </div>
-    ,<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
