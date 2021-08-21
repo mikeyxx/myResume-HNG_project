@@ -75,7 +75,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    color: #F2F2F2;
+    color: #F2F3F5;
 }
 
 .section-one, .section-two {
@@ -105,8 +105,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: #F2F2F2;
-            
+        background-color: #F2F2F2;            
     }    
 }
 
