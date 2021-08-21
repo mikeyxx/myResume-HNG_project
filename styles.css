@@ -4,71 +4,199 @@
     box-sizing: border-box;
 }
 
-.brand-logo {
-    padding: 5px 0 0 10px;
+body {
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;    
+    background-color: #262626;
 }
 
-.container {
-    line-height: 1.7;
-    font-family: "Poppins", sans-serif;
+.section-two h2 {
+    border-bottom: 3px solid #30B8B2;
     
 }
 
-header {
-    background-color: #D0D3D9;
+.section-two h2 {
+    padding-top: 15px;
 }
 
-.header-element {
+.page-header {
+    background-color: #315559;
+    
+}
+
+.container-fluid {
+    
+    position: relative;
+}
+
+.container-fluid a.icon {
+    display: block;
+    text-align: end;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.navbar-elements a {
+    display: block;
+    padding: 10px 0 0 5px
+}
+
+.container-fluid #myLinks {
+    display: none;
+}
+
+.nav-link:link, .nav-link:visited {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.lines h2 {
+    padding-bottom: 15px;
+}
+
+.name-title {
     text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.formwrapper {
-    background-color: #F2F2F2;
-    max-width: 760px;
-    margin: 20px auto 0 auto;
-    padding: 35px;
+.socials {
+    padding-top: 10px;
 }
 
-.form-field {
+.jobTitle {
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+.section-one, .section-two {
+    padding: 20px 22px 18px 22px;
+    background-color: #BBF2ED;    
+}
+
+@media only screen and (min-width: 768px) {
+    .section-two {
+        padding-left: 20rem;
+        background-color: #F2F2F2;
+    }
+    .name-title {
+        font-size: 23px;
+    }
+    .jobTitle {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #F2F2F2;
+            
+    }    
+}
+
+li {
+    list-style: none;
+}
+
+.fig {
+    border-radius: 5em;
+    margin-left: 4rem;
+    border: 2px solid #BBF2ED;
+}
+
+.lines {
+    border-bottom: 2px dotted black;
+    padding: 22px 0 18px 0;
+}
+
+.fas, .fab, .fa {
+    padding-right: 15px;
+    color: #5F9595;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+.each {
+    padding-left: 27px;
+}
+
+.each2 {
+    padding-left: 30px;
+}
+
+.education > p {
+    padding-bottom: 20px;
+}
+
+.fa-github, .fa-mobile, .fa-envelope-square, .fa-linkedin, .fa-twitter-square, .fa-instagram-square {
+    font-size: 20px;
+    color: #BF3636;
+}
+
+.list-items {
+    font-weight: bolder;
+}
+
+.xpr li {
+    margin-bottom: 27px;
+}
+
+.xpr li:first-of-type {
+    margin-top: 23px;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .fig {
+        border-radius: 2em;
+        margin-left: 0px;
+    }
+}
+
+.footer-prop {
+    margin-top: 10px;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-  }
+    flex-direction: row;
+    justify-content: center;
+    background-color: #315559;
+}
 
-  fieldset {
-      border: none;
-      margin-bottom: 20px;
-  }
 
-  li {
-      list-style: none;
-  }
 
-  .form-prop {
-      padding: 5px;
-  }
+@media only screen and (min-width: 768px) {
+    .page-header {
+        position: relative;
+    }
+    
+}
 
-  .dull-font {
-      color: #CBCFD1;
-  }
+@media only screen and (min-width: 768px) {
+    .page-length {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
 
-  .comment-box {
-      height: 70px;
-      padding: 3px;
-  }
-
-  .enroll {
-      background-color: #D90B1C;
-      padding: 5px 20px 5px 20px;
-      border: none;
-      border-radius: 3px;
-      color: white;
-  }
-
-  .enroll:hover {
-      background-color: teal;
-      cursor: pointer;
-  }
-
-  
+@media only screen and (min-width: 768px ) {
+    .section-one {
+        padding: 20px 22px 18px 22px;
+        margin: 0 20px 0 20px;
+        background-color: #BBF2ED;
+        width: 280px;
+        position: absolute;
+        top: 0;
+    }
+}
