@@ -73,7 +73,7 @@ body {
 
 .jobTitle {
     font-family: Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: lighter;
     color: #F2F2F2;
 }
@@ -94,7 +94,7 @@ body {
     }
     .jobTitle {
         font-family: Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
